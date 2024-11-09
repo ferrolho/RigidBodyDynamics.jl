@@ -89,6 +89,7 @@ makedocs(
         "Benchmarks" => "benchmarks.md",
     ],
     warnonly = Documenter.except(),
+    repo = Remotes.GitHub("JuliaRobotics", "RigidBodyDynamics.jl"),
 )
 
 deploydocs(
