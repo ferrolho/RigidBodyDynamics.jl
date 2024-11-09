@@ -91,4 +91,8 @@ makedocs(
     warnonly = Documenter.except(),
 )
 
-deploydocs(repo="github.com/ferrolho/RigidBodyDynamics.jl", devbranch="master")
+deploydocs(
+    repo="github.com/ferrolho/RigidBodyDynamics.jl",
+    devbranch="master",
+    push_preview=true,
+)
