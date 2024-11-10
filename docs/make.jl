@@ -12,7 +12,6 @@ let
     excludedirs = String[]
     excludefiles = String[]
     if VERSION >= v"1.6"
-        push!(excludefiles, "6. Symbolics.jl")
         push!(excludefiles, "7. Rigorous error bounds using IntervalArithmetic.jl")
     end
     for subdir in readdir(exampledir)
